@@ -1,23 +1,15 @@
 {
   "name": "cardgame-api",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "cardgame-api",
-  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/JonasGrunau/cardgame-api.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JonasGrunau/cardgame-api.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JonasGrunau/cardgame-api/issues"
-  },
-  "homepage": "https://github.com/JonasGrunau/cardgame-api#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "socket.io": "^2.1.1"
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
   }
 }
