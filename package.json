@@ -6,7 +6,7 @@
   "repository": "https://github.com/JonasGrunau/cardgame-api.git",
   "scripts": {
     "start": "node index.js",
-    "build": "mkdir -p build;cd build/;touch 1;touch 2;echo Success!",
+    "build": "mkdir -p build;cd build/;touch 1;touch 2;echo Build finished!",
     "test": "jest"
   },
   "dependencies": {
